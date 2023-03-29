@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#top{
+    background-image: url('THJJRUhNlEc.png');
+    height: 208px;
+    background-color: rgb(18, 18, 18);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-weight: bold;
+
+}
+
+h1{
+    font-size: 2.6rem;
+}
+
+h3 > a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+h3 > a:hover{
+    color: orange;
+    font-size: 1.3rem;
+}
